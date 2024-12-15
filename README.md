@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+#E-Commerce Website Frontend
 
-First, run the development server:
+This project is a frontend design for an e-commerce website, created as part of a hackathon assignment. The website is built using Figma for the template design, Next.js 15, Shadcn, and TypeScript for implementation. The frontend includes seven pages with a clean, responsive layout and intuitive navigation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+#Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Home Page: Showcases the main highlights and featured products of the e-commerce platform.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+All Products Page: Displays a comprehensive list of all available products with filtering options.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Single Product Page: Provides detailed information about a selected product, including images, description, and pricing.
 
-## Learn More
+Cart Page: Accessible through the header, allowing users to view and manage selected items.
 
-To learn more about Next.js, take a look at the following resources:
+About Us Page: Shares details about the organization or business.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+FAQs Page: Answers frequently asked questions to assist users.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contact Page: Linked via the footer (Help and Help & Support) to allow users to reach out for queries or support.
 
-## Deploy on Vercel
+#Navigation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The Header includes links to the Home, All Products, Cart, About Us, and FAQs pages.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The Footer provides links to the Contact page under Help and Help & Support sections.
+
+#Technologies Used
+
+Figma: For designing the UI/UX template.
+
+Next.js 15: For building the frontend application.
+
+Shadcn: For UI components and styling.
+
+TypeScript: For type-safe development and improved code quality.
+
+#Purpose
+
+This project demonstrates proficiency in modern frontend development tools and frameworks, emphasizing clean design, modularity, and ease of navigation. It serves as a foundational structure for building a functional e-commerce website.
+
+#Future Enhancements
+
+Add backend functionality for dynamic product data.
+
+Integrate user authentication and profile management.
+
+Implement payment gateways for order processing.
+
+Enhance the UI with advanced animations and responsiveness.
+
+
