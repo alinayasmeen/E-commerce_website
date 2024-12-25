@@ -6,14 +6,14 @@ import { Button } from "@/components/ui/button";
 const Cart = () => {
   return (
     <div>
-      <div className="h-[835px] bg-white flex flex-row gap-20">
+      <div className="xl:min-h-[835px] h-[1000px] bg-white flex flex-row gap-20">
         <div className="h-[547.89px] mx-20 w-[733.33px]">
-          <div className="flex justify-between mt-0 ">
+          <div className="flex flex-col xl:justify-between mt-0 ">
             <div>
               <h1 className="font-inter mt-10 font-medium text-[22px] text-black">
                 Bag
               </h1>
-              <div className="h-[211px] my-10  w-[783px] gap-5 flex flex-row">
+              <div className="h-[211px] my-10 w-[80%] xl:w-[783px] gap-5 flex flex-row">
                 <div>
                   <Image
                     src="/image2.png"
@@ -60,7 +60,7 @@ const Cart = () => {
                   </div>
                 </div>
               </div>
-              <div className="h-[281px] py-10 border-y w-[783px] gap-5 flex flex-row">
+              <div className="h-[281px] py-10 border-y w-[80%] xl:w-[783px] gap-5 flex flex-row">
                 <div>
                   <Image
                     src="/singleProduct/Frame.png"

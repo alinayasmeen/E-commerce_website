@@ -76,11 +76,6 @@ export default {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
-		  screens: {
-			sm: { max: '500px' },  // Small screens: Max width of 639px
-        md: { max: '1023px' }, // Medium screens: Max width of 1023px
-        lg: { max: '1279px' }, // Large screens: Max width of 1279px
-		  },
   	}
   },
   plugins: [tailwindcssAnimate],

@@ -12,12 +12,12 @@ import Footer from "@/components/Footer";
 
 const AllProducts = () => {
   return (
-    <div className=" min-h-[2885px] mt-10 ">
+    <div className=" min-h-[2885px] xl:min-h-[2000px] mt-10 ">
       <div>
-        <h2 className="font-inter mx-20 text-3xl font-semibold mb-16 leading-tight text-left text-gray-700">
+        <h2 className="font-inter sm:mx-0 mx-5 xl:mx-20 flex flex-col gap-5 text-3xl font-semibold mb-16 leading-tight text-left text-gray-700">
           AllProducts
         </h2>
-        <div className="flex h-[461px] mx-20 flex-row gap-3 mt-14">
+        <div className="xl:flex sm:grid sm:mx-0 mx-5 sm:grid-cols-2 sm:grid-rows-2 sm:gap-10 xl:gap-3 flex flex-col xl:h-[461px] xl:mx-20 xl:flex-row gap-3 mt-14">
           <div className="h-[367px] bg-white w-[292px]">
             <div
               style={{ backgroundImage: `url(/img/item-category-3.png)` }}
@@ -84,7 +84,7 @@ const AllProducts = () => {
                 <Button
                   variant={"outline"}
                   size={"sm"}
-                  className="top-[420px] mt-[250px] bg-slate-100"
+                  className="top-[420px] mt-[630px] sm:mt-[250px] bg-slate-100"
                 >
                   <Image
                     src="/Group_1.png"
@@ -114,7 +114,7 @@ const AllProducts = () => {
                 <Button
                   variant={"outline"}
                   size={"sm"}
-                  className="top-[420px] mt-[250px] bg-slate-100"
+                  className="top-[420px] mt-[998px] xl:mt-[250px] sm:mt-[650px] bg-slate-100"
                 >
                   <Image
                     src="/Group_1.png"
@@ -144,7 +144,7 @@ const AllProducts = () => {
                 <Button
                   variant={"outline"}
                   size={"sm"}
-                  className="top-[420px] mt-[250px] bg-slate-100 "
+                  className="top-[420px] mt-[1390px] sm:mt-[650px] xl:mt-[250px] bg-slate-100 "
                 >
                   <Image
                     src="/Group_1.png"
@@ -157,7 +157,7 @@ const AllProducts = () => {
             </div>
           </div>
         </div>
-        <div className="flex h-[461px] mx-20 flex-row gap-3 mt-14">
+        <div className="xl:flex sm:mx-0 mx-5 xl:h-[461px] flex flex-col xl:mx-20 xl:gap-3 sm:grid sm:grid-cols-2 sm:grid-rows-2  sm:gap-10 xl:flex-row gap-3 mt-14">
           <div className="h-[367px] bg-white w-[292px]">
             <div
               style={{ backgroundImage: `url(Image6.png)` }}
@@ -185,7 +185,7 @@ const AllProducts = () => {
                 <Button
                   variant={"outline"}
                   size={"sm"}
-                  className="mt-[860px] bg-[rgba(2,159,174,1)]"
+                  className="xl:mt-[860px] mt-[1900px] sm:mt-[1170px] bg-[rgba(2,159,174,1)]"
                 >
                   <Image
                     src="/Group.png"
@@ -224,7 +224,7 @@ const AllProducts = () => {
                 <Button
                   variant={"outline"}
                   size={"sm"}
-                  className="mt-[860px] bg-slate-100"
+                  className="sm:mt-[1170px] mt-[2280px] xl:mt-[860px] bg-slate-100"
                 >
                   <Image
                     src="/Group_1.png"
@@ -254,7 +254,7 @@ const AllProducts = () => {
                 <Button
                   variant={"outline"}
                   size={"sm"}
-                  className="mt-[860px] bg-slate-100"
+                  className="sm:mt-[1570px] mt-[2660px] xl:mt-[860px] bg-slate-100"
                 >
                   <Image
                     src="/Group_1.png"
@@ -284,7 +284,7 @@ const AllProducts = () => {
                 <Button
                   variant={"outline"}
                   size={"sm"}
-                  className="mt-[860px] bg-slate-100 "
+                  className="sm:mt-[1570px] mt-[3030px] xl:mt-[860px] bg-slate-100 "
                 >
                   <Image
                     src="/Group_1.png"
@@ -297,7 +297,7 @@ const AllProducts = () => {
             </div>
           </div>
         </div>
-        <div className="flex h-[461px] mx-20 flex-row gap-3 mt-14">
+        <div className="xl:flex xl:h-[461px] sm:mx-0 mx-5 sm:grid xl:gap-3 sm:grid-cols-2 sm:grid-rows-2 sm:gap-10  xl:mx-20 xl:flex-row gap-3 mt-14">
           <div className="h-[367px] bg-white w-[292px]">
             <div
               style={{ backgroundImage: `url(/Image_8.png)` }}
@@ -325,7 +325,7 @@ const AllProducts = () => {
                 <Button
                   variant={"outline"}
                   size={"sm"}
-                  className="mt-[1375px] bg-[rgba(2,159,174,1)]"
+                  className="sm:mt-[2000px] mt-[3450px] xl:mt-[1375px] bg-[rgba(2,159,174,1)]"
                 >
                   <Image
                     src="/Group.png"
@@ -337,7 +337,7 @@ const AllProducts = () => {
               </div>
             </div>
           </div>
-          <div className="h-[367px]  bg-white w-[292px]">
+          <div className="h-[367px] mt-2 sm:mt-0 bg-white w-[292px]">
             <div
               style={{ backgroundImage: `url(/Image1.png)` }}
               className="h-[312px] hover:scale-x-110 hover:scale-y-105 w-[292px] rounded-[6px]"
@@ -364,7 +364,7 @@ const AllProducts = () => {
                 <Button
                   variant={"outline"}
                   size={"sm"}
-                  className="mt-[1375px] bg-slate-100"
+                  className="sm:mt-[2000px] mt-[3830px] xl:mt-[1375px] bg-slate-100"
                 >
                   <Image
                     src="/Group_1.png"
@@ -394,7 +394,7 @@ const AllProducts = () => {
                 <Button
                   variant={"outline"}
                   size={"sm"}
-                  className="mt-[1375px] bg-slate-100"
+                  className="sm:mt-[2405px] mt-[4200px] xl:mt-[1375px] bg-slate-100"
                 >
                   <Image
                     src="/Group_1.png"
@@ -406,7 +406,7 @@ const AllProducts = () => {
               </div>
             </div>
           </div>
-          <div className="h-[367px]  bg-white w-[292px]">
+          <div className="h-[367px] mt-2 sm:mt-0 bg-white w-[292px]">
             <div
               style={{ backgroundImage: `url(/Image_5.png)` }}
               className="h-[312px] hover:scale-x-110 hover:scale-y-105 w-[292px] rounded-[6px]"
@@ -424,7 +424,7 @@ const AllProducts = () => {
                 <Button
                   variant={"outline"}
                   size={"sm"}
-                  className="mt-[1375px] bg-slate-100 "
+                  className="sm:mt-[2405px] mt-[4570px] xl:mt-[1375px] bg-slate-100 "
                 >
                   <Image
                     src="/Group_1.png"
@@ -437,10 +437,9 @@ const AllProducts = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="h-[824px]  mt-30 w-full bg-gray-100 py-[80px] top-[1400px]">
+        <div className="h-[824px] mt-30 w-full hidden sm:block bg-gray-100 py-[80px] top-[1400px]">
         <div>
-          <h2 className="font-roboto w-[707px] mx-20 ml-72 text-[50px] flex justify-center font-medium text-black">
+          <h2 className="font-roboto w-[707px] sm:mx-20 xl:ml-72 text-[30px] sm:ml-52 sm:text-[40px] lg:text-[50px] flex justify-center font-medium text-black">
             Or subscribe to the newsletter
           </h2>
         </div>
@@ -457,12 +456,12 @@ const AllProducts = () => {
             SUBMIT
           </button>
         </div>
-        <div className="flex justify-center mx-20 ml-24 mt-10 w-auto">
-          <h2 className="font-roboto text-[50px] font-medium leading-[58.59px] text-center w-auto h-[59px] ">
+        <div className="flex justify-center gap-5 mx-20 ml-24 mt-10 w-auto">
+          <h2 className="font-roboto sm:text-[40px] text-[30px] lg:text-[50px] font-medium leading-[58.59px] text-center w-auto h-[59px] ">
             Follow products and discounts on Instagram
           </h2>
         </div>
-        <div className="mt-10 ml-48 mr-28 mx-20 grid grid-cols-3 w-[450] grid-rows-2 gap-0 h-[450px]">
+        <div className="xl:mt-10 md:mt-20 ml-48 mr-28 mx-20 grid grid-cols-3 w-[450] grid-rows-2 gap-0 h-[450px]">
           {/* <div>
                   <Image src="/img/Image_1.png" alt="Chair1" width={200} height={200} />
                 </div>
@@ -506,7 +505,9 @@ const AllProducts = () => {
           ))}
           {/* </Swiper> */}
         </div>
+        </div>
       </div>
+      
       <div>
         <Footer />
       </div>
