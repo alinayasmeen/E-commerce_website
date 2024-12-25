@@ -15,7 +15,7 @@ export default function Home() {
       <TopCategories />
       <HotCategories />
       <OurProduct />
-      <div className=" relative top-[1890px]">
+      <div className=" relative xl:top-[1800px] lg:top-[3600px] md:top-[3600px] sm:top-[4300px] top-[4090px]">
         <Footer />
       </div>
     </div>
