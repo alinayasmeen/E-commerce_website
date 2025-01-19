@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 const HeroSection = () => {
   return (
     <div>
-      <div className="xl:w-[1191px] lg:w-[864px] w-full h-[650px] md:mx-0 lg:mx-20 flex justify-center xl:justify-between bg-[rgb(240,242,243)] sm:rounded-bl-[30px] absolute top-[204px]">
+      <div className="xl:w-[1191px] lg:w-[864px] w-full h-[650px] md:mx-0 lg:mx-20 flex justify-center xl:justify-between bg-[#f0f2f3]  sm:rounded-bl-[30px] absolute top-[204px]">
     <div className="w-[434px] hidden xl:block h-[584px] absolute top-[115px] left-[777px]">
     <Image src="/Product_Image.png" alt="image" width={334} height={484} />
 </div>

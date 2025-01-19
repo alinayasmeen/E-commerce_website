@@ -34,4 +34,5 @@ This project demonstrates proficiency in modern frontend development tools and f
 - Integrate user authentication and profile management.
 - Implement payment gateways for order processing.
 - Enhance the UI with advanced animations and responsiveness.
-## You can visit my site on : https://prismatic-khapse-15b4c9.netlify.app/
+
+## You can visit my site on : **https://prismatic-khapse-15b4c9.netlify.app/**

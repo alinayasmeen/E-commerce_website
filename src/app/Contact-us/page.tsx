@@ -2,10 +2,11 @@ import Footer from "@/components/Footer";
 import React from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Wrapper from "@/components/shared/page";
 
 const Contact = () => {
   return (
-    <div>
+    <Wrapper>
       <div className="h-[1300px] mx-20">
         <h2 className="font-poppins text-5xl flex justify-center mt-20 mb-10 items-center font-semibold leading-9 text-black">
           Get In Touch With Us
@@ -168,7 +169,7 @@ const Contact = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </Wrapper>
   );
 };
 
