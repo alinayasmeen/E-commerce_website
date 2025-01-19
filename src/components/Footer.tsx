@@ -4,7 +4,8 @@ import { Button } from "@/components/ui/button"
 import Link from 'next/link'
 const Footer = () => {
   return (
-    <div className='min-h-[400px] mt-10 max-w-full border-t-2'>
+    <div className='w-full'>
+    <div className='xl:min-h-[400px] bg-white h-full mt-10  border-t-2'>
         <div className='xl:mx-20 flex flex-row my-2 xl:my-20 h-[223px]'>
             <div className='w-1/2 gap-1 xl:gap-10 flex flex-row'>
             <div className='w-auto xl:w-[350px] mr-0 ml-1 xl:ml-0 xl:mr-5'>
@@ -20,7 +21,7 @@ const Footer = () => {
                 <br /> eu posuere turpis interdum.<br />
             Cras egestas purus </div>
             <br />
-            <div className='flex flex-row'>
+            <div className='sm:flex hidden sm:flex-row'>
                 <div><Image src="/Group 44.png" alt="alt" width={38} height={38} /> </div>
                 <div><Image src="/Group 48.png" alt="alt" width={38} height={38} /> </div>
                 <div><Image src="/Group 50.png" alt="alt" width={38} height={38} /> </div>
@@ -51,6 +52,7 @@ const Footer = () => {
                 <li className='hover:underline hover:text-[rgba(0,117,128,1)]'>Desk Chair</li>
                 <li className='hover:underline hover:text-[rgba(0,117,128,1)]'>wooden Chair</li>
                 <li className='hover:underline hover:text-[rgba(0,117,128,1)]'>Park Bench</li>
+              
             </ul>
             </div>
             </div>
@@ -94,7 +96,7 @@ const Footer = () => {
     Zakirsoft
   </span>
   </div>
-<div className='opacity-25 h-[10px] w-[130px] flex flex-row gap-2 '>
+<div className=' h-[10px] w-[130px] flex flex-row gap-2 '>
     <Image src="/Group11.png" alt='payment methods' width={36} height={22}/>
     <Image src="/Group12.png" alt='payment methods' width={56} height={15}/>
     <Image src="/Vector2.png" alt='payment methods' width={50} height={27}/>
@@ -103,7 +105,7 @@ const Footer = () => {
                 </div>
             </div>
             </div>
-           
+            </div>
   )
 }
 

@@ -8,7 +8,7 @@ const About = () => {
     <div>
       <div className="min-h-[1500px] mx-2 max-w-full lg:mx-20">
         <div className="flex flex-col  xl:flex-row mt-20 gap-10">
-          <div className="xl:w-1/2 w-[70%] h-[450px] bg-[#007580]">
+          <div className="xl:w-1/2 w-full sm:w-[70%] h-[450px] bg-[#007580]">
             <h1 className="font-inter text-[32px] font-bold mt-10 ml-10 leading-[38.73px] text-white">
               About Us - Comforty
             </h1>
@@ -33,7 +33,7 @@ const About = () => {
             />
           </div>
         </div>
-        <h2 className="text-[#272343] mt-10 flex justify-center font-inter font-semibold text-[32px]">
+        <h2 className="text-[#272343] mt-0 sm:mt-10 flex justify-center font-inter font-semibold text-[32px]">
           What makes our Brand Different
         </h2>
         <div className="mt-10 xl:h-[244px] h-[916px] max-w-full grid xl:grid-cols-4 sm:grid-cols-1 sm:grid-rows-4 xl:grid-rows-1 gap-10">
