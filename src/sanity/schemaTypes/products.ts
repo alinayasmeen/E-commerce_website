@@ -1,69 +1,6 @@
  import { Rule } from "sanity";
 
-// export const Product = {
-//   name: "product",
-//   title: "Product",
-//   type: "document",
-//   fields: [
-//     {
-//       name: "title",
-//       title: "Title",
-//       type: "string",
-//       validation: (Rule: Rule) => Rule.required(),
-//     },
-//    
 
-//     },
-//     {
-//       name: "price",
-//       title: "Price",
-//       type: "number",
-//       options: {
-//         currency: "USD",
-//       },
-//       validation: (Rule: Rule) => Rule.required().min(0),
-//     },
-//     {
-//       name: "image",
-//       title: "Image",
-//       type: "image",
-//     },
-//     {
-//       name: "description",
-//       title: "Description",
-//       type: "text",
-//     },
-//     {
-//       name: "quantity",
-//       title: "Quantity",
-//       type: "number",
-//       validation: (Rule: Rule) => Rule.required().min(0),
-//     },
-//     {
-//       name: "categories",
-//       title: "Categories",
-//       type: "array",
-//       of: [{ type: "string" }],
-//       validation: (Rule: Rule) =>
-//         Rule.required()
-//           .min(1)
-//           .max(5)
-//           .error("Please select between 1 and 5 categories."),
-//       options: {
-//         layout: "checkbox",
-//         list: [
-//           { title: "Chairs", value: "chairs" },
-//           { title: "Sofa", value: "sofa" },
-//           { title: "Armchair", value: "armchair" },
-//           { title: "Park Bench", value: "park_bench" },
-//           { title: "Wooden Chair", value: "wooden_chair" },
-//           { title: "Desk Chair", value: "desk_chair" },
-//           { title: "Wing Chair", value: "wing_chair" },
-//         ],
-//       },
-//     },
-//   ],
-// };
 
 import { defineType } from "sanity";
 

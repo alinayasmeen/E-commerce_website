@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
+import Link from 'next/link'
 
 
 const HeroSection = () => {
@@ -19,6 +20,7 @@ const HeroSection = () => {
   Collection for your<br />
   interior.
 </div>
+<Link href="/AllProducts">
 <Button className='w-[171px] h-[52px]  bg-[rgba(2,159,174,1)] absolute top-[494px] sm:left-[70px] p-[14px_24px] gap-[20px] rounded-tl-[8px]'>Shop Now 
   <Image
    src="/Right.png" 
@@ -26,6 +28,7 @@ const HeroSection = () => {
     width={24}
      height={24} />
      </Button>
+     </Link>
 </div>
 
   </div>
